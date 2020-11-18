@@ -160,7 +160,7 @@ class Grid
     }
 }
 
-$grid = new Grid(65, 65);
+$grid = new Grid(129, 129);
 $grid->run();
 //$grid->display();
 echo $grid->dumpWalls(294) . PHP_EOL;
